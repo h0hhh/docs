@@ -9,33 +9,29 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
-      {
-        "anchor": "Anchor 1",
-        "groups": [
-          {
-            "group": "Group 1",
-            "pages": [
-              "index",
-              "index",
-              "index"
-            ]
-          }
-        ]
-      },
-      {
-        "anchor": "Anchor 2",
-        "groups": [
-          {
-            "group": "Group 2",
-            "pages": [
-              "index",
-              "index",
-              "index"
-            ]
-          }
-        ]
-      }
-    ]
+      "dropdowns": [
+    {
+      "dropdown": "Documentation",
+      "icon": "book-open",
+      "pages": [
+        "quickstart",
+        "development",
+        "navigation"
+      ]
+    },
+    {
+      "dropdown": "API References",
+      "icon": "sqaure-terminal",
+      "pages": [
+        "api-reference/get",
+        "api-reference/post",
+        "api-reference/delete"
+      ]
+    },
+    {
+      "dropdown": "Blog",
+      "href": "https://external-link.com/blog"
+    }
+  ]
   }
 }
